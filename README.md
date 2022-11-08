@@ -16,6 +16,8 @@ To get to know more you can either read the [official documentation](http://ngrx
 npm install ngrx-forms --save
 ```
 
+This is a test.
+
 This library has a peer dependency on `@angular/core`, `@angular/common`, `@angular/forms`, and `@ngrx/store`, so make sure appropriate versions of those packages are installed.
 
 #### Bug reports
