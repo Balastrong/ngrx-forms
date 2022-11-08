@@ -31,6 +31,7 @@ import { swapControlReducer } from './reducer/swap-control';
 import { childReducer } from './reducer/util';
 
 export function formArrayReducerInternal<TValue>(state: FormArrayState<TValue>, action: Actions<TValue[]>) {
+  console.log("More test for the video!")
   if (!isArrayState(state)) {
     throw new Error('The state must be an array state');
   }
