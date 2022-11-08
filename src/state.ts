@@ -9,7 +9,7 @@ export type NgrxFormControlId = string;
  */
 export interface ValidationErrors { readonly [key: string]: any; }
 export interface KeyValue { [key: string]: any; }
-
+export interface SubscribeToMyChannel {}
 /**
  * Base interface for all types of form states.
  */
